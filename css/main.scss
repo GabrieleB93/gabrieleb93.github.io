@@ -1675,8 +1675,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjHvfzVmoThAhVKyKQKHW9KCU8QjRx6BAgBEAU&url=https%3A%2F%2Flovepik.com%2Fimage-500145137%2Fthe-background-of-green-plants-is-blurred.html&psig=AOvVaw30mzTt9hFvGIC-uD-kfmV5&ust=1552741405136042")'));
-			/* @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")')); */
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
