@@ -9,7 +9,7 @@ description: |
   Organizer
 owner: WA.S.O. # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: info@waso.it
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.gabrieleb93.github.io" # the base hostname & protocol for your site
 social:
